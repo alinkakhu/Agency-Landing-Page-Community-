@@ -107,6 +107,7 @@ p {
 /* hero */
 .hero-container{
   display: flex;
+  position: relative;
 }
   .hero-info{
   margin-right: 17px;
@@ -119,9 +120,10 @@ font-family: 'Ageo', sans-serif;
 font-weight: 850;
 line-height: 81px;
 padding-top: 93px;
- width: 500px;
-margin-bottom: 26px;
+width: 653px;
+margin-bottom: 46px;
 padding-right: 0;
+
 }
 .hero-paragraf{
   color: black;
@@ -129,7 +131,7 @@ font-size: 22px;
 font-family: 'Ageo', sans-serif;
 font-weight: 500;
 line-height: 28.50px;
- width: 555px;
+ width: 600px;
 margin-bottom: 66px;
 }
 .hero-btn{
@@ -138,4 +140,84 @@ margin-bottom: 66px;
 .hero-img{
 width: 606px;
   min-height: 618px;
+  position: absolute;
+ top: 0;
+  left:51%;
+}
+/* features */
+#features{
+  margin-top: 86px;
+  margin-bottom: 181px;
+}
+svg {
+  display: block;
+  width: 76px;
+  height: 76px;
+  stroke-width: 0;
+  stroke: black;
+  fill: black;
+  margin: 0 auto;
+  margin-bottom: 41px;
+  margin-top: 30px;
+}
+.services{
+  color: #8A898E;
+font-size: 14px;
+font-family: 'Ageo', sans-serif;
+font-weight: 700;
+line-height: 28.50px;
+letter-spacing: 6.30px;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 19px;
+}
+.services-box{
+  text-align: center;
+}
+.services-item{
+  width: 352px;
+
+  border-radius: 28px;
+  box-shadow:-1px 17px 41px -2px rgba(66, 68, 90, 0.43);
+}
+.services-item:not(:last-child){
+  margin-right: 57px;
+}
+.features-title{
+color: #0B1B35;
+ font-size: 52px;
+ font-family: 'Ageo', sans-serif;
+ font-weight: 700;
+ line-height: 28.50px;
+text-align: center;
+margin-bottom: 108px;
+}
+.services-list{
+ display: flex;
+
+}
+.service-title{
+  text-align: center;
+  color: black;
+font-size: 36px;
+font-family: 'Ageo', sans-serif;
+font-weight: 700;
+line-height: 28.50px;
+margin-bottom: 32px;
+}
+.service-text{
+  text-align: center;
+  padding: 0 41px;
+  margin-bottom: 18px;
+  color: black;
+font-size: 18px;
+font-family: 'Ageo', sans-serif;
+font-weight: 400;
+line-height: 30px;
+letter-spacing:2;
+
+}
+.service-btn{
+  margin-bottom: 45px;
+  margin-left:0 ;
 }
