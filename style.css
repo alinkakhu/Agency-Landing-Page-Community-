@@ -7,6 +7,7 @@
   font-family: 'Ageo';
   src: url('assets/fonts/ageo');
 }
+
 body {
   min-width: 320px;
   background-color: #fff;
@@ -34,6 +35,9 @@ ul {
 p {
   margin-top: 0;
   margin-bottom: 0;
+}
+button{
+  cursor: pointer;
 }
 
 .container {
@@ -178,7 +182,7 @@ margin-bottom: 19px;
   width: 352px;
 
   border-radius: 28px;
-  box-shadow:-1px 17px 41px -2px rgba(66, 68, 90, 0.43);
+  box-shadow:-1px 17px 17px -2px rgba(66, 68, 90, 0.43);
 }
 .services-item:not(:last-child){
   margin-right: 57px;
@@ -220,4 +224,62 @@ letter-spacing:2;
 .service-btn{
   margin-bottom: 45px;
   margin-left:0 ;
+}
+#framework{
+  margin-bottom: 146px;
+}
+.framework-container{
+  display: flex;
+}
+
+.framework-title{
+  color: #1E0E62;
+font-size: 22px;
+font-family: 'DM Sans',sans-serif;
+font-weight: 500;
+line-height: 32px;
+max-width: 303px;
+margin-bottom: 20px;
+}
+.framework-paragraf{
+  color: rgba(21.06, 20.34, 56.79, 0.40);
+font-size: 16px;
+font-family: 'DM Sans', sans-serif;
+font-weight: 400;
+line-height: 26px;
+ width:340px ;
+margin-bottom: 72px;
+}
+.framework-btn{
+  color: #1E0E62;
+font-size: 16px;
+font-family: 'DM Sans', sans-serif;
+font-weight: 500;
+line-height: 22px;
+padding: 13px 38px;
+border-radius: 100px;
+background-color: transparent;
+border: 1px #EBEAED solid;;
+}
+.fraimwork-info{
+  margin-right: 140px;
+}
+.framework-img{
+  max-width: 612px;
+  position: relative;
+  right: 0;
+}
+.video{
+  position: relative;
+}
+.rectangle, .arrow{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+}
+.rectangle{
+
+  width: 84px;
+  height: 84px;
 }
