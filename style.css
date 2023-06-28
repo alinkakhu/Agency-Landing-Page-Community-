@@ -45,6 +45,7 @@ p {
 /* header */
 .header {
   margin-top: 48px;
+  margin-bottom: 21px;
 }
 .logo {
   display: block;
@@ -102,4 +103,39 @@ p {
 .nav {
   display: flex;
   align-items: center;
+}
+/* hero */
+.hero-container{
+  display: flex;
+}
+  .hero-info{
+  margin-right: 17px;
+}
+
+.hero-title{
+  color: #0B1B35;
+font-size: 70px;
+font-family: 'Ageo', sans-serif;
+font-weight: 850;
+line-height: 81px;
+padding-top: 93px;
+ width: 500px;
+margin-bottom: 26px;
+padding-right: 0;
+}
+.hero-paragraf{
+  color: black;
+font-size: 22px;
+font-family: 'Ageo', sans-serif;
+font-weight: 500;
+line-height: 28.50px;
+ width: 555px;
+margin-bottom: 66px;
+}
+.hero-btn{
+  margin: 0;
+}
+.hero-img{
+width: 606px;
+  min-height: 618px;
 }
