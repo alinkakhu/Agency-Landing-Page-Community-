@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('assets/fonts/ageo');
+}
+body {
+  min-width: 320px;
+  background-color: #fff;
+  color: #212121;
+
+  letter-spacing: 0.03em;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  padding-left:  35px;
+  padding-right:  35px;
+  margin: 0 auto;
+  width: 1170px;
+}
+/* header */
+.header {
+  margin-top: 48px;
+}
+.logo {
+  display: block;
+  width: 240px;
+  height: 49px;
+  margin-right: 114px;
+}
+.header-container,
+.nav-list {
+  display: flex;
+
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+.nav-list {
+  padding: 10px 0;
+  align-items: center;
+  margin-right: 160px;
+}
+.nav-link {
+  font-size: 18px;
+  display: inline-block;
+  white-space: nowrap;
+  font-weight: 500;
+  font-family: "Ageo", sans-serif;
+  color: black;
+}
+.auth {
+  display: flex;
+  justify-content: baseline;
+}
+.btn {
+  padding: 10px 30px;
+  margin: 0;
+  margin-left: 22px;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: Ageo;
+  font-weight: 500;
+  line-height: 28.5px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-family: "Ageo", sans-serif;
+}
+.log {
+  padding: 10px 0;
+  white-space: nowrap;
+  font-family: "Ageo", sans-serif;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
