@@ -50,6 +50,7 @@ html.is-open, body.is-open {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1170px) {
@@ -178,15 +179,32 @@ display: none;
   display: none;
 }
 }
+@media screen and (min-width: 767px) and (max-width: 1170px)  {
+  .logo {
+   margin-right: 50px;
+  }
 
+}
 
 .nav-item:not(:last-child) {
   margin-right: 40px;
+}
+@media screen and (min-width: 767px) {
+
+  .nav-item:not(:last-child) {
+    margin-right: 15px;
+}
 }
 .nav-list {
   padding: 10px 0;
   align-items: center;
   margin-right: 160px;
+}
+@media screen and (min-width: 767px) and (max-width: 1170px)  {
+
+  .nav-list {
+    margin-right: 50px;
+}
 }
 .nav-link {
   font-size: 18px;
@@ -195,6 +213,12 @@ display: none;
   font-weight: 500;
   font-family: "Ageo", sans-serif;
   color: black;
+}
+@media screen and (min-width: 767px) and (max-width: 1170px) {
+
+  .nav-link {
+    font-size: 14px;
+}
 }
 .auth {
   display: flex;
@@ -216,10 +240,23 @@ display: none;
   cursor: pointer;
   font-family: "Ageo", sans-serif;
 }
+@media screen and (min-width: 767px) and (max-width: 1170px) {
+
+  .btn {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+}
 .log {
   padding: 10px 0;
   white-space: nowrap;
   font-family: "Ageo", sans-serif;
+}
+@media screen and (min-width: 767px) {
+
+  .log {
+    font-size: 14px;
+}
 }
 .nav {
   display: flex;
