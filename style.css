@@ -39,13 +39,124 @@ button{
   cursor: pointer;
 }
 
-.container {
-  padding-left:  35px;
-  padding-right:  35px;
-  margin: 0 auto;
-  width: 1170px;
+html.is-open, body.is-open {
+  overflow: hidden;
+}
+ .container{
+  min-width: 320px;
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .container {
+    width: 1170px;
+    padding-left:  35px;
+    padding-right:  35px;
+    margin: 0 auto;
+  }
 }
 /* header */
+header{
+  position: relative;
+
+}
+.header-menu-mobile{
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+margin: 0 auto;
+    max-width: 500px;
+}
+nav.mobile{
+  display: none;
+}
+nav.mobile.is-open{
+  display: flex;
+  align-items: center;
+justify-content: center;
+position: absolute;
+top: 0%;
+left:0%;
+background-color: white;
+z-index: 2;
+width: 100%;
+
+}
+nav.mobile.is-open .nav-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ height: 100vh;
+ margin-right: 0;
+
+
+}
+nav.mobile.is-open .nav-item{
+
+  margin-bottom: 40px;
+margin-right: 0;
+
+
+}
+
+nav.mobile.is-open .nav-link{
+cursor: pointer;
+font-size: 42px;
+
+
+}
+@media screen and (max-width: 767px) {
+
+     .logo-mobile img{
+      width: 100px;
+
+    }
+}
+.logo-mobile.is-open{
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  z-index: 4;
+}
+.logo-mobile.is-open img{
+  margin-top: 10px;
+
+}
+.burger img{
+  max-width:40px;
+  max-height: 40px;
+
+
+}
+button.burger{
+  background-color: transparent;
+  border: none;
+
+  right: 10%;
+}
+.burger.is-open{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 4;
+  transform: rotate(90deg);
+
+}
+
+@media screen and (min-width: 767px) {
+
+  .header-menu-mobile {
+display: none;
+  }
+}
+
 .header {
   margin-top: 48px;
   margin-bottom: 21px;
@@ -61,6 +172,13 @@ button{
   display: flex;
 
 }
+@media screen and (max-width: 767px) {
+
+.header-container{
+  display: none;
+}
+}
+
 
 .nav-item:not(:last-child) {
   margin-right: 40px;
